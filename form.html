@@ -6,19 +6,28 @@ border: solid 1px black;
 border-collapse: collapse;
 padding: 10px;
 }
+h3{
+border-bottom:solid 1px black;
+padding-bottom: 10px;
+}
 </style></head>
 <body>
-<h3>KTX 열차 시간표</h3>
-<table>
-<th>출발</th><th>도착</th><th>객실</th><th>요금</th>
-<tr><td>서울(17:25)</td><td>부산(20:07)</td><td>일반실</td><td>50,800원</td></tr>
-<tr><td>서울(18:00)</td><td>부산(20:35)</td><td>특실</td><td>83,700원</td></tr>
-<tr><td>서울(18:15)</td><td>부산(20:50)</td><td>일반실</td><td>50,800원</td></tr>
-</table>
+<h3>회원 정보입력</h3>
 
-<form><table>
-<tr><td>아이디</td> <td><input type='text'></td></tr>
-<tr><td>비밀번호</td> <td><input type='password'></td></tr>
-<tr><td colspan=2 align="center"><input type='submit' value='로그인'></td></tr>
-</table></form>
+
+<table>
+<tr><td><p>* 이름</p></td> <td><input type='text'></td></tr>
+<tr><td><p>* 아이디</p></td> <td><input type='text'><input type='button' value='중복확인'></td></tr>
+<tr><td><p>* 비밀번호</p></td> <td><input type='password'> 	* 영문,숫자,기호 조합으로 (8~20글자)</td></tr>
+<tr><td><p>* 비밀번호 확인</p></td> <td><input type='password'></td></tr>
+<tr><td><p>* 전화번호</p></td><td><select><option>010</option>
+<option>011</option></select> - <input type='text'> - <input type='text'> <input type='button' value='인증번호 전송'></td></tr>
+<tr><td><p>* 전화번호</p></td><td><input type='text'> @<input type='text'><select><option>직접 입력</option><option>naver.com</option>
+<option>gmail.com</option></select> </td></tr>
+
+<tr><td rowspan=5><p>* 정보수신여부</p></td> <td><p>*showpeng에서 제공하는 정보 등을 받으실수 있습니다 <br>
+(거래정보,주문/결제/배송 등과 회사의 주요정책 관련 메세지는 수신동의 여부와 관계없이 발송됩니다.) </p><input type='radio' name='a'>수신<input type='radio' name='a'>수신안함<br><input type='radio' name='d'>수신<input type='radio' name='d'>수신안함</td>
+</tr>
+
+</table>
 </body></html>
