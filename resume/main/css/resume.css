@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 .t1 {
+  align-content: center;
   border: solid 1px black;
   height: auto;
   width: 90%;
@@ -11,7 +12,7 @@
   padding: 0 auto;
 }
 .t4 {
-  background-color: lightgray;
+  background-color: #d1e0fc;
   width: 100px;
   height: 50px;
 
@@ -23,23 +24,31 @@
   border: solid 1px black;
   text-align: center;
   border: solid 1px black;
-  font-size: 16px;
+  font-size: 20px;
 }
 .t6 {
-  background-color: lightgray;
+  background-color: #d1e0fc;
   height: 40px;
 }
 .t7 {
-  background-color: lightgray;
+  background-color: #d1e0fc;
   height: 50px;
+}
+.t8 {
+  height: 200px;
+  line-height: 1.6;
+  padding: 15px;
+  word-break: break-word;
 }
 .t2 {
   font-size: 30px;
   border: solid 1px black;
   line-height: 50px;
-  background-color: lightgray;
-  letter-spacing: 10px;
+  background-color: #d1e0fc;
+  letter-spacing: 20px;
   height: 50px;
+
+  text-indent: 20px;
 }
 .t3 {
   border: solid 1px black;
@@ -50,10 +59,12 @@
 }
 .title {
   font-size: 30px;
-  background-color: lightgray;
-  letter-spacing: 10px;
+  background-color: #d1e0fc;
+  letter-spacing: 20px;
   height: 80px;
   line-height: 80px;
+
+  text-indent: 20px;
 }
 
 .img {
